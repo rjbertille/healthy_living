@@ -1,0 +1,49 @@
+@media (max-width: 575px) {
+  .banner {
+    background: url(../images/lemon.jpg) no-repeat top center fixed;
+    background-position: center top fixed;
+    overflow: hidden;
+    height: 643px;
+    /*background:linear-gradient(to top,
+    rgba(0,0,0, .35) 0%,
+    rgba(0,0,0, .25) 100%
+    ),
+    url('../images/lemon.jpg');
+    background-position:center top fixed;
+    background-size:cover;
+    text-align:center;
+    overflow: hidden; */ } }
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner {
+    /*background: url(../images/lemon.jpg) no-repeat top center fixed;  
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;*/
+    background: url(../images/lemon.jpg) no-repeat top center fixed;
+    background-position: center top fixed;
+    overflow: hidden;
+    height: 643px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    background: url(../images/lemon.jpg) no-repeat top center fixed;
+    background-position: center top fixed;
+    overflow: hidden;
+    height: 643px; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    background: url(../images/lemon.jpg) no-repeat top center fixed;
+    background-position: center top fixed;
+    background-size: cover;
+    overflow: hidden;
+    height: 643px; } }
+
+@media (min-width: 1200px) {
+  .banner {
+    background: url(../images/lemon.jpg) no-repeat top center fixed;
+    background-position: center top fixed;
+    overflow: hidden;
+    height: 643px; } }

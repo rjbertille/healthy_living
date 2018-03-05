@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
+
+html,body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+img {
+    max-width:100%;
+    height: auto;
+}
+
+$primary-color:#fff;
+#toggle {
+    width:28px;
+    height:30px;
+    margin:10px auto;
+    float:right;
+    /*margin-top:25px;*/
+}
+
+#toggle div {
+    width:100%;
+    height:5px;
+    background:$primary-color;
+    margin:4px auto;
+    transition: all 0.3s;
+    backface-visibility: hidden;  
+}
+
+#toggle.on .one {
+    transform:rotate(45deg)
+    translate(5px, 5px);
+}
+      
+#toggle.on .two {
+    opacity:0;  
+}
+      
+#toggle.on .three {
+    transform: rotate(-45deg)
+    translate(7px, -8px);
+       
+}
+  
+@media (max-width: 575px) {
+    $color:transparent;
+    .navbar{
+       top:0;
+       left:0;
+       width:100%;
+       background-color:$color;
+       border-color:transparent;
+       display:inline-block;
+
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .navbar-brand {
+       font-family:$font-stack;
+          
+    }
+    $color:#fff;
+    .title_content {
+        $font-stack: 'Pacifico', cursive; 
+        font-family:$font-stack; 
+        color:$color;
+        text-align:center;
+        margin-top:150px;
+        margin-bottom:50px;
+        font-size:50px;  
+
+    }
+    .banner{ 
+        background: url(../images/lemon.jpg)no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;
+        
+        
+    }
+    .content-main {
+        margin-top:50px;
+    }
+    
+    h3 {
+        margin-top:20px;
+    }
+
+    .carousel-item{
+        width:300px;
+        height:300px;
+        margin:0 auto;
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .content-paragraph {
+        margin-top:50px;
+        text-align:justify;
+        padding-right:5px;
+        padding-left:5px;
+        font-family:$font-stack;
+    }
+
+    $footer-color:#F2D98D;
+    .footer {
+        width:100%;
+        height:70px;
+        background-color:$footer-color;
+        margin-top:50px;
+    }
+    .social-footer {
+        text-align:center;
+        padding-top:20px;
+
+    }
+    $social-footer: #fff;
+    .social-footer .fa{
+        margin-left:10px;
+        padding-right:10px;
+        padding-left:10px;
+        font-size:20px;
+        color:$social-footer;
+    }
+            
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    $color:transparent;
+    .navbar{
+       top:0;
+       left:0;
+       width:100%;
+       background-color:$color;
+       border-color:transparent;
+       display:inline-block;
+
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .navbar-brand {
+       font-family:$font-stack;  
+          
+    }
+    $color:#fff;
+    .title_content {
+        $font-stack: 'Pacifico', cursive; 
+        font-family:$font-stack; 
+        color:$color;
+        text-align:center;
+        margin-top:150px;
+        margin-bottom:50px;
+        font-size:50px;  
+
+    }
+
+    .banner{ 
+        background: url(../images/lemon.jpg)no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;
+        
+        
+    }
+    .content-main {
+        margin-top:50px;
+    }
+
+    .carousel-item{
+        width:300px;
+        height:300px;
+        margin:0 auto;
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .content-paragraph {
+        margin-top:50px;
+        text-align:justify;
+        padding-right:5px;
+        padding-left:5px;
+        font-family:$font-stack;
+    }
+
+    
+    h3 {
+        margin-top:20px;
+    }
+
+    $footer-color:#F2D98D;
+    .footer {
+        width:100%;
+        height:70px;
+        background-color:$footer-color;
+        margin-top:50px;
+    }
+    .social-footer {
+        text-align:center;
+        padding-top:20px;
+
+    }
+    $social-footer: #fff;
+    .social-footer .fa{
+        margin-left:10px;
+        padding-right:10px;
+        padding-left:10px;
+        font-size:20px;
+        color:$social-footer;
+    }
+        
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    $color:transparent;
+    .navbar{
+       top:0;
+       left:0;
+       width:100%;
+       background-color:$color;
+       border-color:transparent;
+       display:inline-block;
+
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .navbar-brand {
+       font-family:$font-stack;  
+          
+    }
+    $color:#fff;
+    .title_content {
+        $font-stack: 'Pacifico', cursive; 
+        font-family:$font-stack; 
+        color:$color;
+        text-align:center;
+        margin-top:150px;
+        margin-bottom:50px;
+        font-size:70px;  
+
+    }
+    .banner{ 
+        background: url(../images/lemon.jpg)no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;
+        
+        
+    }
+    .content-main {
+        margin-top:50px;
+    }
+
+    .carousel-item{
+        width:645px;
+        height:300px;
+        margin:0 auto;
+    }
+    $font-stack:'Open Sans', sans-serif;  
+    .content-paragraph {
+        text-align:justify;
+        padding-right:30px;
+        padding-left:30px;
+        font-family:$font-stack;
+        margin-top:50px;
+    }
+
+    .center {
+        text-align:center;
+    }
+
+    h3 {
+        margin-top:20px;
+    }
+
+    $footer-color:#F2D98D;
+    .footer {
+        width:100%;
+        height:70px;
+        background-color:$footer-color;
+        margin-top:50px;
+    }
+    .social-footer {
+        text-align:center;
+        padding-top:20px;
+
+    }
+    $social-footer: #fff;
+    .social-footer .fa{
+        margin-left:10px;
+        padding-right:10px;
+        padding-left:10px;
+        font-size:20px;
+        color:$social-footer;
+    }
+        
+    
+}  
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+    h3 {
+        margin-top:20px;
+    }
+
+    img {
+        width:660px;
+        height:413px;
+   
+    }
+
+    $color:transparent;
+    .navbar{
+       top:0;
+       left:0;
+       width:100%;
+       background-color:$color;
+       border-color:transparent;
+       display:inline-block;
+
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .navbar-brand {
+       font-family:$font-stack;  
+       
+          
+    }
+    $color:#fff;
+    .title_content {
+        $font-stack: 'Pacifico', cursive; 
+        font-family:$font-stack; 
+        color:$color;
+        text-align:center;
+        margin-top:150px;
+        margin-bottom:50px;
+        font-size:70px;  
+
+    }
+    .banner{ 
+        background: url(../images/lemon.jpg)no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;
+        
+        
+    }
+    .content-main {
+        margin-top:50px;
+        text-align:center;
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .content-paragraph {
+        text-align:justify;
+        padding-right:30px;
+        padding-left:30px;
+        font-family:$font-stack;
+        margin-top:50px;
+        font-size:18px;
+    }
+
+    .center {
+        text-align:center;
+        font-size:18px;
+    }
+
+    .carousel-item img{
+        width:880px;
+        height:400px;
+        margin:0 auto;
+    }
+    .caption {
+        padding-left:120px;
+        padding-right:120px;
+        text-align:justify;
+
+    }
+    .col {
+        margin-bottom:30px;
+    }
+    
+    
+    $footer-color:#F2D98D;
+    .footer {
+        width:100%;
+        height:70px;
+        background-color:$footer-color;
+        margin-top:50px;
+    }
+    .social-footer {
+        text-align:center;
+        padding-top:20px;
+
+    }
+    $social-footer: #fff;
+    .social-footer .fa{
+        margin-left:10px;
+        padding-right:10px;
+        padding-left:10px;
+        font-size:20px;
+        color:$social-footer;
+    }
+        
+    
+}
+
+@media (min-width: 1200px) {
+    h3 {
+        margin-top:20px;
+    }
+
+    img {
+        width:660px;
+        height:413px;
+   
+    }
+
+    $color:transparent;
+    .navbar{
+       top:0;
+       left:0;
+       width:100%;
+       background-color:$color;
+       border-color:transparent;
+       display:inline-block;
+
+    }
+    $font-stack:'Open Sans', sans-serif;
+    .navbar-brand {
+       font-family:$font-stack;  
+          
+    }
+    $color:#fff;
+    .title_content {
+        $font-stack: 'Pacifico', cursive; 
+        font-family:$font-stack; 
+        color:$color;
+        text-align:center;
+        margin-top:150px;
+        margin-bottom:50px;
+        font-size:80px;  
+
+    }
+
+    .banner{ 
+        background: url(../images/lemon.jpg)no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: 800px;    
+    }
+    .content-main {
+        margin-top:50px;
+        text-align:center;
+    }
+    .caption {
+        padding-left:210px;
+        padding-right:210px;
+        text-align:justify;
+
+    }
+
+    $font-stack:'Open Sans', sans-serif;
+    .content-paragraph {
+        text-align:justify;
+        padding-right:30px;
+        padding-left:30px;
+        font-family:$font-stack;
+        margin-top:50px;
+    }
+
+    .center {
+        text-align:center;
+        font-size:18px;
+    }
+
+
+
+    .carousel-item img{
+        width:1050px;
+        height:400px;
+        margin:0 auto;
+        
+    }
+    .col {
+        margin-bottom:30px;
+    }
+
+    $footer-color:#F2D98D;
+    .footer {
+        width:100%;
+        height:70px;
+        background-color:$footer-color;
+        margin-top:50px;
+    }
+    .social-footer {
+        text-align:center;
+        padding-top:20px;
+
+    }
+    $social-footer: #fff;
+    .social-footer .fa{
+        margin-left:10px;
+        padding-right:10px;
+        padding-left:10px;
+        font-size:20px;
+        color:$social-footer;
+    }
+        
+    
+} 

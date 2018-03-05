@@ -1,0 +1,71 @@
+@media (max-width: 575px) {
+    .banner{ 
+        background: url(../images/food.jpg)no-repeat top center fixed; 
+        background-position:center  center top;
+        background-attachment:fixed;
+        background-size:cover;
+        overflow: hidden;
+        height:500px;
+        image-rendering: -webkit-optimize-contrast;
+            
+    }
+
+    
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .banner { 
+        background: url(../images/food.jpg)no-repeat top center fixed; 
+        background-position:center top fixed;
+        overflow: hidden;
+        height:500px;
+        image-rendering: -webkit-optimize-contrast;
+        
+    }
+
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .banner { 
+        background: url(../images/food.jpg)no-repeat top center fixed; 
+        background-position:center top fixed;
+        /*background-size:100%;*/
+        overflow: hidden;
+        height:500px;
+        image-rendering: -webkit-optimize-contrast;
+  
+        
+    }
+
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner{ 
+        background: url(../images/food.jpg)no-repeat top center fixed; 
+        background-position:center top fixed;
+        background-size:100% 50%;
+        overflow: hidden;
+        height:643px;
+        image-rendering: -webkit-optimize-contrast;
+
+    }
+
+   
+}
+
+@media (min-width:1200px) {
+        .banner{ 
+            background: url(../images/food.jpg)no-repeat top center fixed; 
+            background-position:center top fixed;
+            background-size:100%;
+            overflow: hidden;
+            height:643px;
+            image-rendering: -webkit-optimize-contrast;
+        
+    }
+
+    
+}
